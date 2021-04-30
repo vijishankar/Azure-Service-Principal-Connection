@@ -1,7 +1,7 @@
 pipeline {
     agent any
             parameters {
-        string(name: 'AZSUBSCRIPTION', defaultValue: 'Cloud Technology Solutions', description: 'Azure Subscription Name')
+        string(name: 'AZSUBSCRIPTION', defaultValue: 'Pay-As-You-Go', description: 'Azure Subscription Name')
 	    }
     environment {
        
