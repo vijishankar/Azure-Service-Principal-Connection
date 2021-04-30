@@ -1,6 +1,8 @@
 pipeline {
     agent any
- 
+            parameters {
+        string(name: 'AZSUBSCRIPTION', defaultValue: 'Cloud Technology Solutions', description: 'Azure Subscription Name')
+	    }
     environment {
        
        AZURE_SUBSCRIPTION_ID='4917809c-4753-4722-81bf-a1b4429fd9ca'
